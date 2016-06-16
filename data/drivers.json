@@ -1,0 +1,68 @@
+[
+    {
+        "country": "fi", 
+        "driver": "Kimi R\u00e4ikk\u00f6nen", 
+        "points": 0, 
+        "team": 1
+    }, 
+    {
+        "country": "es", 
+        "driver": "Fernando Alonso", 
+        "points": 0, 
+        "team": 1
+    }, 
+    {
+        "country": "de", 
+        "driver": "Nico Rosberg", 
+        "points": 0, 
+        "team": 2
+    }, 
+    {
+        "country": "de", 
+        "driver": "Sebastian Vettel", 
+        "points": 0, 
+        "team": 3
+    }, 
+    {
+        "country": "au", 
+        "driver": "Daniel Ricciardo", 
+        "points": 0, 
+        "team": 3
+    }, 
+    {
+        "country": "br", 
+        "driver": "Felipe Massa", 
+        "points": 1, 
+        "team": 4
+    }, 
+    {
+        "country": "br", 
+        "driver": "Felipe Massa", 
+        "points": 1, 
+        "team": 4
+    }, 
+    {
+        "country": "uk", 
+        "driver": "Jenson Button", 
+        "points": 1, 
+        "team": 5
+    }, 
+    {
+        "country": "uk", 
+        "driver": "Lewis Hamilton", 
+        "points": 1, 
+        "team": 2
+    }, 
+    {
+        "country": "dk", 
+        "driver": "Kevin Magnussen", 
+        "points": 1, 
+        "team": 5
+    }, 
+    {
+        "country": "fi", 
+        "driver": "Valtteri Botas", 
+        "points": 2, 
+        "team": 4
+    }
+]
