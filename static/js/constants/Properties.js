@@ -1,3 +1,4 @@
 angular.module("RacingApp").constant("Properties", {
-    resourcesDataUrl : "/data/"
+    resourcesDataUrl : "/data/",
+    apiTeamUrl : "/api/team/"
 });

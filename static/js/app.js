@@ -20,13 +20,10 @@ racingApp.config(['$routeProvider', function($routeProvider, ListServices){
             templateUrl: 'static/views/Details.html',
             controller: "TeamInfoCtrl",
             resolve:{
-                //Albums: ['AlbumsProvider', function(AlbumsProvider){
-                //    return AlbumsProvider.getAlbums();
-                //}],
-                Id:[ "$route", function($route){
-                    return $route.current.params.idTeam;
-                }
-                ]
+                Team: ['TeamDetailsServices',  "$route", function(TeamDetailsServices,  $route){
+                    debugger;
+                    return TeamDetailsServices.getTeamDetails($route.current.params.idTeam);
+                }]
             }
 
         }).
