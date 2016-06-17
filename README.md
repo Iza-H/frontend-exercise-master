@@ -59,15 +59,19 @@ In order to clean the code was used ESLint.
 ##Examples of GUI:
 
 * Main page:
+ 
 
 
-![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshots/main.png)
+![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshoots/main.png)
 
 
 * Main page (mobile version):
 
 
-![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshots/main_small.png)
+ 
+![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshoots/main_small.png)
+
+
 
 
 * Details:
