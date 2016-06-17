@@ -61,18 +61,18 @@ In order to clean the code was used ESLint.
 * Main page:
 
 
-![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/main.png)
+![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshots/main.png)
 
 
 * Main page (mobile version):
 
 
-![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/main_small.png)
+![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshots/main_small.png)
 
 
 * Details:
 
-![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/detail.png)
+![](https://github.com/Iza-H/frontend-exercise-master/blob/master/resources/screenshoots/detail.png)
 
 
 
