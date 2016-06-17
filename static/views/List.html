@@ -1,16 +1,16 @@
 <div class="listContener">
-
+    <input type="text" class="form-control" ng-model="DriverFilter" placeholder="Driver name">
     <table class="rwd-table">
         <thead>
         <tr>
             <th>Pilot</th>
             <th>Country</th>
             <th>Team</th>
-            <th>Current_standing</th>
+            <th>Points</th>
         </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="pilot in pilots | orderBy: ['points','driver']  track by $index" pilot-Element pilot="pilot" on-driver-click="showTeamDetails(idTeam)" class="listElements"></tr>
+            <tr ng-repeat="pilot in pilots | filter : { driver : DriverFilter } | orderBy: ['-points','driver']" pilot-Element pilot="pilot" on-driver-click="showTeamDetails(idTeam)" class="listElements"></tr>
         </tbody>
     </table>
 

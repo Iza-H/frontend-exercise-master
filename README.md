@@ -1,4 +1,94 @@
-# Exercise
+# Implementation
+
+## Front-end:
+Static part of the project is located in the 'static' folder, which contains:
+
+* js/constants - with properties
+* js/controllers - with controllers:
+	- ListCtr - responsible for managing of the main list of the data
+	- TermInfoCtrl - responsible for the part of the website where the details of team are showing
+
+* directives:
+	- ListElement - used to present and manage the data in the table.
+* services
+	- TeamDetailsServices - retrives data about the team, which is showing after choosing some value from the list.
+	- ListServices - retrives data about drivers, which is later showing in the main website
+- app.js - contains configuration of routes
+
+
+Views are divided into:
+
+* Details - represents the part with more information about the team
+* List - the part which contains the main list
+* TeamInfo - representation of the row
+* Index - main website
+
+
+## TDD Tests:
+To create examples of the test TDD was used: Karma, Jasmine, Karma-phantomjs-launcher (to can use PhantomJS), Karma-spec-reporter (to present more detailed information on the screen).
+
+To managed tests, dependencies was used npm. So to run tests it's necessary to proceed to the installation of the libraries:
+
+
+    npm update
+
+ After that, there is a possibility of running tests TDD using:
+
+	npm test
+
+
+## Backend-end:
+
+There were created two APIs:
+
+	GET /api/team/<int:team_id>.json
+
+
+* team_details - which returns details about the interesting us team
+
+
+		GET /api/standings.json
+
+* standings - which chooses some driver randomly and increase its points
+
+## ESLint:
+
+In order to clean the code was used ESLint.
+
+
+##Examples of GUI:
+
+* Main page:
+
+
+![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/main.png)
+
+
+* Main page (mobile version):
+
+
+![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/main_small.png)
+
+
+* Details:
+
+![](https://github.com/Iza-H/frontend-excercise-master/blob/master/resources/screenshots/detail.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Exercise - assumptions
 
 
 A frontend-backend exercise.
@@ -86,3 +176,7 @@ All yours, have fun!
 
 PS: I have no idea of Formula1 or racing, just felt easy to propose a problem
 and find real data for the examples.
+
+
+
+# Realization

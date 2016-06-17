@@ -6,9 +6,17 @@
 angular.module('RacingApp').service('ListServices', function($http, Properties){
 
     this.getPilots = function(){
-        var promise = $http.get(Properties.resourcesDataUrl + "drivers.json").success(function(data) {
+        //console.log("Read data");
+
+        var promise = $http.get(Properties.resourcesDataUrl + 'drivers.json', {cache:false}).success(function(data) {
             return data;
         });
         return promise;
     };
+
+
+
+
+
+
 });

@@ -28,3 +28,6 @@ bower_components
 env
 .project
 .pydevproject
+
+node_modules
+.idea/

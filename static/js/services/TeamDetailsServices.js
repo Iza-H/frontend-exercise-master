@@ -6,8 +6,7 @@
 angular.module('RacingApp').service('TeamDetailsServices', function($http, Properties){
 
     this.getTeamDetails = function(id){
-        var promise = $http.get( Properties.apiTeamUrl + id + ".json").success(function(data) {
-            debugger;
+        var promise = $http.get( Properties.apiTeamUrl + id + '.json').success(function(data) {
             return data;
         });
         return promise;

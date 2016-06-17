@@ -1,15 +1,19 @@
 <body>
-    <nav class="float-form">
+
+    <section id="section_details">
+        <p class="subtitle">TEAM DETAILS:</p>
+        <p><strong>Team Id:</strong> {{ team.id }}</p>
+        <p><strong>Team Name:</strong> {{ team.team }}</p>
+        <p><strong>Car:</strong> {{ team.car }}</p>
+    </section>
+     <nav class="float-form">
         <ul class="tabs">
             <!--Menu:-->
             <li class="tab">
-                <a class="menuList" href="#/list"></a>
+                <a class="menuList" href="#/list">RETURN TO THE LIST</a>
             </li>
         </ul>
     </nav>
-    <h1>Team details:</h1>
-    <p><strong>Team Id:</strong> {{ team.id }}</p>
-    <p><strong>Team Name:</strong> {{ team.team }}</p>
-    <p><strong>Car:</strong> {{ team.car }}</p>
+
 
 </body>

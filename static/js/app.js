@@ -1,5 +1,7 @@
 var racingApp = angular.module('RacingApp', ['ngRoute']);
 
+
+
 racingApp.config(['$routeProvider', function($routeProvider, ListServices){
     $routeProvider.
         //route to the part which presents all information:
@@ -16,18 +18,18 @@ racingApp.config(['$routeProvider', function($routeProvider, ListServices){
 
         }).
 
+        //Part with details:
         when('/details/:idTeam',{
             templateUrl: 'static/views/Details.html',
             controller: "TeamInfoCtrl",
             resolve:{
                 Team: ['TeamDetailsServices',  "$route", function(TeamDetailsServices,  $route){
-                    debugger;
                     return TeamDetailsServices.getTeamDetails($route.current.params.idTeam);
                 }]
             }
-
         }).
 
+        //others:
         otherwise({
             redirectTo:'/list',
         });
@@ -36,3 +38,4 @@ racingApp.config(['$routeProvider', function($routeProvider, ListServices){
 
 
 }]);
+

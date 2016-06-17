@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Catamaran:400);
 
-body{
 
+body {
     background-color: #fdfdfd;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 h1{
@@ -17,23 +17,8 @@ h1{
     min-height: 500px;
     width:100%;
     min-width: 300px;
-
 }
 
-.module{
-    position:relative;
-    height:90%;
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:5px;
-    background:RGBA(255,255,255,1);
-    -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .45);
-    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
-    border-top: 6px solid #ff656c;
-    margin-bottom: 20px;
-}
 
 
 .module ul{
@@ -42,56 +27,18 @@ h1{
     display: inline;
 }
 
-
-
-
-
-
-
-.buttons {
-    width: 100%;
-    height: 40px;
-    background: #ff656c;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid #e15960;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    outline: none;
-    text-align:center;
-    cursor: pointer;
-    margin-bottom: 20px;
+#section_details{
+    margin: 10%;
 }
 
-.buttons:hover {
-    background: #ff4c54;
+.subtitle{
+    margin-bottom:50px;
+    font-size: 25px;
 }
 
-.buttons:disabled:hover {
-    background: #ff656c;
-    cursor: default;
+li{
+    list-style-type:none;
 }
-
-.buttons:enabled:hover {
-    background: #ff4c54;
-    cursor: pointer;
-}
-
-
-.errorContainer{
-    width: 100%;
-}
-
-div .error{
-    float: right;
-    margin-top: -25px;
-    color: #ff656c;
-}
-
-
 
 
 /*Main buttons*/
@@ -99,31 +46,14 @@ div .error{
     display:block;
     float:right;
     cursor:pointer;
-    width: 48px;
-    height: 48px;
+    width: 120px;
+    height: 30px;
     border: none;
     background-color: transparent;
-    margin-right: 1%;
+    margin-right: 5%;
+    font-size: 12px;
     /*margin-bottom: 10px;*/
-
 }
-
-.tab .menuList{
-    background:url(../resources/icons/iconmonstr-menu-6-icon-48_light.png) no-repeat;
-}
-
-.tab .menuList:hover{
-    background:url(../resources/icons/iconmonstr-menu-6-icon-48_dark.png) no-repeat;
-}
-
-.tab .menuAdd{
-    background:url(../resources/icons/iconmonstr-plus-5-icon-48_light.png) no-repeat;
-}
-
-.tab .menuAdd:hover{
-    background:url(../resources/icons/iconmonstr-plus-5-icon-48_dark.png) no-repeat;
-}
-
 
 
 /*Table*/
@@ -140,14 +70,14 @@ div .error{
 .rwd-table {
     border-collapse: collapse;
     border-spacing: 0;
-    font: normal 14px 'Roboto', sans-serif;
+    font: normal 14px 'Catamaran', sans-serif;
 }
 .rwd-table thead th {
     width: 14%;
     background-color: transparent;
-    border-bottom: solid 2px #ccc;
-    font-weight: bold;
-    color: #ff656c;
+    border-bottom: solid 1px #4fa0e9;
+    font-weight: normal;
+    color: #4fa0e9;
     padding: 10px;
     text-align: left;
     text-transform: uppercase;
@@ -166,6 +96,14 @@ div .error{
     padding: 1px;
 }
 
+.form-control{
+  float:right;
+  margin-right:15px;
+  margin-bottom: 25px;
+  width: 220px
+
+}
+
 
 @media (max-width: 670px) {
 
@@ -173,8 +111,8 @@ div .error{
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        display: inline-block;
-        width:97%;
+        //display: inline-block;
+        //width:97%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -187,8 +125,8 @@ div .error{
     .rwd-table thead th {
         border:none;
     }
-    .rwd-table thead th:last-child{
-        border-bottom: 2px solid #ccc;
+    .rwd-table thead {
+        border-bottom: 1px solid #4fa0e9;
         height: 0px;
 
     }
